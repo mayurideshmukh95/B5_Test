@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 from django.contrib.auth.models import User
 from django.utils.text import Truncator
-
+#add single line comment in f1
 
 class Board(models.Model):
     name = models.CharField(max_length=30, unique=True)
